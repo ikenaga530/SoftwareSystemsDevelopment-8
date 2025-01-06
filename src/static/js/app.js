@@ -3,6 +3,13 @@ function App() {
     return (
         <Container>
             <Row>
+                <Col>
+                    <h1 className="text-center" style={{ margin: "20px 0", fontSize: "2rem" }}>
+                        Hi there, My name is Takumi Ikenaga
+                    </h1>
+                </Col>
+            </Row>
+            <Row>
                 <Col md={{ offset: 3, span: 6 }}>
                     <TodoListCard />
                 </Col>
